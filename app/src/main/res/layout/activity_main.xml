@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+
+    <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+
+
+
+    <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="350dp" android:id="@+id/cardView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:cardCornerRadius="10dp"
+            android:elevation="50dp"
+            android:layout_margin="10dp" app:layout_constraintHorizontal_bias="0.842">
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp" app:layout_constraintStart_toEndOf="@+id/appCompatTextView"
+                app:layout_constraintEnd_toEndOf="@+id/appCompatTextView">
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/img"
+                    android:scaleType="fitXY"
+                    android:id="@+id/appCompatImageView"
+            />
+
+            <android.support.v7.widget.AppCompatTextView
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WNDORS CAR"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:id="@+id/appCompatTextView" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginLeft="17dp" app:layout_constraintBottom_toBottomOf="parent"
+                    android:layout_marginStart="17dp" android:layout_marginBottom="17dp"/>
+        </RelativeLayout>
+
+            <LinearLayout android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical"
+                          android:layout_marginTop="200dp" android:id="@+id/linearLayout"
+                          app:layout_constraintTop_toTopOf="@+id/appCompatImageView"
+                          app:layout_constraintStart_toStartOf="@+id/appCompatImageView">
+                <android.support.v7.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="BUGATI CHIRON"
+                        android:layout_marginStart="10dp"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:layout_marginLeft="10dp"
+                />
+                <android.support.v7.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:text="This is the fastest car on earth it goes with the maximum speed of 300Km/hr."
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"
+                        android:textColor="@android:color/black"
+                        android:layout_marginLeft="10dp"
+
+                />
+                <android.support.v7.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:text="ABOUT                      ADD TO FEVOURITE CARS"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="15sp"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp" android:id="@+id/ccardViewardView"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:cardCornerRadius="15dp"
+                    android:elevation="50dp"
+                    android:layout_margin="10dp" app:layout_constraintHorizontal_bias="0.842">
+                <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp" app:layout_constraintStart_toEndOf="@+id/appCompatTextView"
+                        app:layout_constraintEnd_toEndOf="@+id/appCompatTextView">
+
+                    <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/messi"
+                            android:scaleType="fitXY"
+                            android:id="@+id/appCompatImageViewd"
+                    />
+
+                    <android.support.v7.widget.AppCompatTextView
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="LIONEL MESSI"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:textColor="@android:color/white"
+                            android:textSize="15sp"
+                            android:id="@+id/appCompatKTextView" app:layout_constraintStart_toStartOf="parent"
+                            android:layout_marginLeft="17dp" app:layout_constraintBottom_toBottomOf="parent"
+                            android:layout_marginStart="17dp" android:layout_marginBottom="17dp"/>
+                </RelativeLayout>
+
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:orientation="vertical"
+                              android:layout_marginTop="200dp" android:id="@+id/linelarLayout"
+                              app:layout_constraintTop_toTopOf="@+id/appCompatImageView"
+                              app:layout_constraintStart_toStartOf="@+id/appCompatImageView">
+                    <android.support.v7.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:text="Lionel Messi is ranked among the top 10 players in the worls."
+                            android:layout_height="wrap_content"
+                            android:textSize="18dp"
+                            android:textColor="@android:color/black"
+                            android:layout_marginLeft="10dp"
+
+                    />
+                    <android.support.v7.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        <android.support.v7.widget.AppCompatTextView
+                                android:layout_width="wrap_content"
+                                android:text="SHARE"
+                                android:layout_marginLeft="10dp"
+                                android:textSize="15sp"
+                                android:id="@+id/share2"
+                                android:textColor="@android:color/holo_red_dark"
+                                android:layout_marginTop="5dp"
+
+                                android:layout_height="wrap_content"/>
+                        <android.support.v7.widget.AppCompatTextView
+                                android:layout_width="wrap_content"
+                                android:text="SAVE"
+                                android:id="@+id/save2"
+                                android:layout_marginLeft="200dp"
+                                android:textSize="15sp"
+                                android:textColor="@android:color/holo_red_dark"
+                                android:layout_marginTop="5dp"
+
+                                android:layout_height="wrap_content"/>
+                    </android.support.v7.widget.LinearLayoutCompat>
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp" android:id="@+id/cccardViewardView"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:cardCornerRadius="15dp"
+                    android:elevation="50dp"
+                    android:layout_margin="10dp" app:layout_constraintHorizontal_bias="0.842">
+                <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp" app:layout_constraintStart_toEndOf="@+id/appCompatTextView"
+                        app:layout_constraintEnd_toEndOf="@+id/appCompatTextView">
+
+                    <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/img3"
+                            android:scaleType="fitXY"
+                            android:id="@+id/appCompattImageViewd"
+                    />
+
+                    <android.support.v7.widget.AppCompatTextView
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="LIONEL MESSI"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:textColor="@android:color/white"
+                            android:textSize="15sp"
+                            android:id="@+id/appCompatKkTextView" app:layout_constraintStart_toStartOf="parent"
+                            android:layout_marginLeft="17dp" app:layout_constraintBottom_toBottomOf="parent"
+                            android:layout_marginStart="17dp" android:layout_marginBottom="17dp"/>
+                </RelativeLayout>
+
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:orientation="vertical"
+                              android:layout_marginTop="200dp" android:id="@+id/llinelarLayout"
+                              app:layout_constraintTop_toTopOf="@+id/appCompatImageView"
+                              app:layout_constraintStart_toStartOf="@+id/appCompatImageView">
+                    <android.support.v7.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:text="Lionel Messi is ranked among the top 10 players in the worls."
+                            android:layout_height="wrap_content"
+                            android:textSize="18dp"
+                            android:textColor="@android:color/black"
+                            android:layout_marginLeft="10dp"
+
+                    />
+                    <android.support.v7.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        <android.support.v7.widget.AppCompatTextView
+                                android:layout_width="wrap_content"
+                                android:text="SHARE"
+                                android:layout_marginLeft="10dp"
+                                android:textSize="15sp"
+                                android:id="@+id/share32"
+                                android:textColor="@android:color/holo_red_dark"
+                                android:layout_marginTop="5dp"
+
+                                android:layout_height="wrap_content"/>
+                        <android.support.v7.widget.AppCompatTextView
+                                android:layout_width="wrap_content"
+                                android:text="SAVE"
+                                android:id="@+id/save22"
+                                android:layout_marginLeft="200dp"
+                                android:textSize="15sp"
+                                android:textColor="@android:color/holo_red_dark"
+                                android:layout_marginTop="5dp"
+
+                                android:layout_height="wrap_content"/>
+                    </android.support.v7.widget.LinearLayoutCompat>
+
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.v7.widget.LinearLayoutCompat>
